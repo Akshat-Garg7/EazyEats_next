@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preinstall": "npm install --global node-gyp",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -22,7 +23,7 @@
     "eslint-config-next": "14.0.3"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.x"
   }
 }
 
